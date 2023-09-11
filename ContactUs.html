@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Watch-HUB</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+<!-- owl carousel css link -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+  
+<!-- owl carousel theme.css link -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">  
+
+<!-- jquery cdn - javascript upgrade -->
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<style>
+    .header{
+        background-color: #1dbdd9;
+       padding-top: 15px;
+        height: 50px;
+    }
+    .second-header{
+        height: 120px;
+        padding-top: 20px;
+       background-color: rgb(231, 240, 243);
+    border: 5px dashed rgb(65, 89, 139);
+    }
+       .style-icon{
+         border: 1px solid rgb(241, 8, 8);
+         border-radius: 50%;
+         padding: 7px;
+         width: 30px;
+         }
+         .style-icon:hover{
+            background-color: rgb(255, 111, 0);
+            }
+            #image{
+                padding-top: 20px;
+            }
+
+            #icon55{
+            padding-top: 30px;
+        
+        }    
+          .icon11{ 
+            margin: 5px;
+          }
+          li.list-group-item{
+            background-color: transparent;
+            border-bottom: 0;
+          color: #097ff4  ;
+          }
+
+          .product-design{
+            padding: 2px;
+            border: 1px solid #bcbcbc;
+            cursor: pointer;
+          }
+          /* to give shadow effect on hover */
+          .product-design:hover{
+            box-shadow: 0px 0px 10px grey;
+          }
+
+    </style>
+</head>
+<body>
+    <div class="header row">
+        <div class="col-sm-4 text-center">
+            <a href="https://m.facebook.com"><i class="fa fa-facebook-official text-white"></i></a>
+            <a href="https://m.youtube.com/"><i class="fa fa-youtube-play text-white"></i></a>
+            <a href="https://twitter.com/i/flow/login?redirect_after_login=%2Flogin" target="_blank"><i class="fa fa-twitter text-white"></i></a>
+        </div>
+        <div class="col-sm-4 "><a href="https://www.whatsapp.com/" target="_blank" class="text-white"><i class="fa fa-whatsapp text-white"></i>  Order through whatsapp +91-987654310</a>
+        </div>
+        <div class="col-sm-4"><a href="mailto:ioptyjogen@gmail.com" target="_blank" class="text-white"><i class="fa fa-envelope text-white"></i>  ioptyjogen@gmail.com</a></div>
+
+    </div>
+<div class="row second-header">
+  <div class="col-3 text-center" id="image">
+    <img src= "watch hub logo 1.png" style="height: 80px; ;">    
+</div> 
+<div class="col-6">
+</div>
+<div class="col-3">
+    <a href="#"><i class="fa fa-whatsapp text-black style-icon"></i></a>
+    <a href="#"><i class="fa fa-user text-black style-icon"></i></a>
+    <a href="#"><i class="fa fa-search text-black style-icon"></i></a>
+
+   <!--<a href="#"><i class="fa fa-shopping-basket text-black style-icon">--> 
+
+    <a data-bs-target="#cartPopup" data-bs-toggle="modal" href="#cartPopup"><i class=" icon11 fa fa-shopping-basket text-black style-icon"></i></a>
+</div>
+</div>
+
+<div class="modal fade" id="cartPopup" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+
+        ...
+      </div>
+      <div class="modal-footer">
+  
+        <button type="button" class="btn btn-success"> <i class="fa fa-arrow-right" aria-hidden="true"></i> Checkout</button>
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="col-md-12 text-center" style="color: rgb(71, 121, 122);">
+    <br>  <br> 
+
+
+
+<div class="container">
+    <div class="row">
+            <div class="col-md-12">
+                <h3>Contact Form</h3>
+                <form>
+                    <div class="col-md-10 offset-md-1" style="display: inline-flex;">
+                        <label class="form-label" style="display: block ruby ;"> <span style="color: #f00c0c;">*</span>  Your name &nbsp; &nbsp;</label>
+                        <input type="text" name="Yourname" class="form-control">
+
+                    </div>
+                    <br><br>
+                    <div class="col-md-10 offset-md-1" style="display: inline-flex;">
+                        <label class="form-label" style="display: block ruby ;"> <span style="color: #f00c0c;">*</span>  Your E-mail  &nbsp; &nbsp;</label>
+                        <input type="text" name="Yourname" class="form-control">
+
+                    </div>
+                    <br><br>
+                    <div class="col-md-10 offset-md-1" style="display: inline-flex;">
+                        <label class="form-label" style="display: block ruby ;"> <span style="color: #f00c0c;">*</span>  Enquiry &nbsp; &nbsp;</label>
+                        <textarea name="Enquiry" class="form-control" rows="6"></textarea>
+
+                    </div>
+                    <br><br>
+                    <button type="button" class="btn btn-outline-success allbtn active" id="all" style="margin-left: 85%;">Submit</button>
+                </form>
+
+            </div>
+    </div>
+
+</div>
